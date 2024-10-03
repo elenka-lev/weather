@@ -1,0 +1,56 @@
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.line {
+    height: 40px;
+    background-color: #00c4cc;
+}
+
+.load {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1158px;
+    padding: 0 15px 0 0;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+    background: linear-gradient(#00c4cc, #015255);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(149, 149, 150, 0.533);
+    outline: none;
+    padding-left: 16px;
+}
+
+input:hover {
+    border: 1px solid rgba(74, 74, 75, 0.533);
+}
+
+input:focus {
+    border: 1px solid #00c4cc;
+}
+
+button {
+    height: 40px;
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00c4cc;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #039499;
+}

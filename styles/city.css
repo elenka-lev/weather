@@ -1,0 +1,27 @@
+.city-info {
+    border-radius: 30px;
+    border-top: 1px solid #00c4cc;
+    border-left: 1px solid #00c4cc;
+    width: 400px;
+    height: 330px;
+    box-shadow: 10px 5px 5px #00c4cc;
+    padding: 53px 77px;
+}
+
+.today-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.today-city {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.today-date {
+    font-weight: 700;
+    font-size: 35px;
+}
