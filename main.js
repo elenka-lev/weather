@@ -1,7 +1,7 @@
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
 import axios from 'axios';
-const BASE_URL_GEO = 'http://api.openweathermap.org/geo/1.0/direct';
+const BASE_URL_GEO = 'https://api.openweathermap.org/geo/1.0/direct';
 const API_KEY = '25564df1c8dad9938ea89a52e68a0135';
 const WEATHER_API_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
@@ -110,24 +110,19 @@ form.addEventListener('submit', async event => {
   }
   weatherGrid.innerHTML = '';
   try {
-    const city = await getWeatherForCity(cityValue);
-    console.log(city);
-    if (city && city.main) {
-      renderWeather(city);
-    } else {
-      iziToast.error({
-            title: '',
-            message: 'Something went wrong. Please try again!',
-            position: 'topRight',
-            backgroundColor: '#EF4040',
-            maxWidth: '432px',
-            messageColor: '#fff',
-            iconColor: '#fff'
-        });
-    }
+    await getWeatherForCity(cityValue);
   } catch (error) {
-    console.log(error);
+    iziToast.error({
+      title: '',
+      message: 'Something went wrong. Please try again!',
+      position: 'topRight',
+      backgroundColor: '#EF4040',
+      maxWidth: '432px',
+      messageColor: '#fff',
+      iconColor: '#fff'
+    });
         
+  } finally {
+    form.reset();
   }
-  form.reset();
 })
