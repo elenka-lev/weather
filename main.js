@@ -1,5 +1,4 @@
-// import iziToast from "izitoast";
-// import "izitoast/dist/css/iziToast.min.css";
+
 import axios from 'axios';
 const BASE_URL_GEO = 'https://api.openweathermap.org/geo/1.0/direct';
 const API_KEY = '25564df1c8dad9938ea89a52e68a0135';
@@ -18,7 +17,7 @@ async function getCoordinates(cityName) {
       const { lat, lon } = data;
         return { lat, lon };
     } catch (error) {
-        console.error('Ошибка получения координат:', error);
+        console.error(error);
         throw error;
     }
 };
@@ -46,7 +45,7 @@ async function getWeatherForCity(cityName) {
         const weatherData = await getWeather(coordinates);
         renderWeather(weatherData);
     } catch (error) {
-        console.error('Ошибка при получении погоды для города:', error);
+        console.error(error);
     }
 }
 

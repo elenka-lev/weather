@@ -1,0 +1,71 @@
+[33mcommit b14f7365b487887c6bb597444dd06184c71d98d4[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: OlenaSorokina <114348764+elenka-lev@users.noreply.github.com>
+Date:   Thu Oct 10 09:57:12 2024 +0300
+
+    deleted izitoast
+
+[33mcommit d6618a8d99bf27719bf46aec4339dada2a4b1a2d[m
+Author: OlenaSorokina <114348764+elenka-lev@users.noreply.github.com>
+Date:   Thu Oct 10 09:54:01 2024 +0300
+
+    i don't know
+
+[33mcommit f929b5f318126e191866d7005801a919ac560b77[m
+Author: OlenaSorokina <114348764+elenka-lev@users.noreply.github.com>
+Date:   Thu Oct 10 09:32:35 2024 +0300
+
+    update import izitoast ./node..
+
+[33mcommit 7d16dec6b5c0c5e1b30110da46250e97284a53d2[m
+Author: OlenaSorokina <114348764+elenka-lev@users.noreply.github.com>
+Date:   Thu Oct 10 09:26:36 2024 +0300
+
+    update izitoast before
+
+[33mcommit aab25515448876c753051fd869f079a5d25ee1c5[m
+Author: OlenaSorokina <114348764+elenka-lev@users.noreply.github.com>
+Date:   Thu Oct 10 09:18:49 2024 +0300
+
+    izitoast
+
+[33mcommit 423908b2232138d380f23e655d9fd0e0802f248f[m
+Author: OlenaSorokina <114348764+elenka-lev@users.noreply.github.com>
+Date:   Thu Oct 10 09:14:33 2024 +0300
+
+    update gitignor
+
+[33mcommit 8a9b871e688ecf655d6042e35b1043a06e2d0307[m
+Author: OlenaSorokina <114348764+elenka-lev@users.noreply.github.com>
+Date:   Thu Oct 10 09:09:21 2024 +0300
+
+    update js
+
+[33mcommit 4fc925a3be711fe74bcfd9967520209926470feb[m
+Author: OlenaSorokina <114348764+elenka-lev@users.noreply.github.com>
+Date:   Thu Oct 3 19:04:18 2024 +0300
+
+    Update build
+
+[33mcommit 40eb66f9d0816793810093e8a74d1ba1c0ce9010[m
+Author: OlenaSorokina <114348764+elenka-lev@users.noreply.github.com>
+Date:   Thu Oct 3 18:44:52 2024 +0300
+
+    update package.json
+
+[33mcommit 189339669270eff1b48419d9f76d4c8abdf65592[m
+Author: OlenaSorokina <114348764+elenka-lev@users.noreply.github.com>
+Date:   Thu Oct 3 17:50:33 2024 +0300
+
+    update js
+
+[33mcommit 10a1c99751394d53d5e1e05548779fa854717bee[m
+Author: OlenaSorokina <114348764+elenka-lev@users.noreply.github.com>
+Date:   Thu Oct 3 17:46:33 2024 +0300
+
+    weather forecast
+
+[33mcommit d0f198655209192e904d3cf10423caa286b1b997[m
+Author: OlenaSorokina <114348764+elenka-lev@users.noreply.github.com>
+Date:   Thu Oct 3 17:29:20 2024 +0300
+
+    Initial commit
