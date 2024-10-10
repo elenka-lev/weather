@@ -1,5 +1,5 @@
 import iziToast from "izitoast";
-import "izitoast/dist/css/iziToast.min.css";
+import "/izitoast/dist/css/iziToast.min.css";
 import axios from 'axios';
 const BASE_URL_GEO = 'https://api.openweathermap.org/geo/1.0/direct';
 const API_KEY = '25564df1c8dad9938ea89a52e68a0135';
